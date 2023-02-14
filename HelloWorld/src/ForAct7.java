@@ -18,7 +18,7 @@ public class ForAct7 {
         		positivos++;
         	if (n / 15 == 0)
         		multiplos++;
-        	if (n / 2 == 0)
+        	if (n % 2 == 0)
         		valorPares += n;
         }
     	System.out.println("Cantidad de numeros negativos ingresados: " + negativos);
